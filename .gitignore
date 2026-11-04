@@ -1,0 +1,4 @@
+# Local downloaded datasets
+/data/
+/examples/data
+__pycache__/

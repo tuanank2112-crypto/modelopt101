@@ -1,0 +1,11 @@
+task,name,success,episodes,aborted,steps,client_ms_per_env_step
+0,Alphabet soup,20,20,0,3102,138.98
+1,Cream cheese,19,20,0,2972,134.32
+2,Salad dressing,18,20,0,3512,136.73
+3,BBQ sauce,14,20,0,4782,128.67
+4,Ketchup,19,20,0,3248,128.46
+5,Tomato sauce,11,20,0,6417,140.14
+6,Butter,20,20,0,3117,136.71
+7,Milk,19,20,0,3068,139.67
+8,Chocolate pudding,17,20,0,4051,131.29
+9,Orange juice,16,20,0,4258,129.87

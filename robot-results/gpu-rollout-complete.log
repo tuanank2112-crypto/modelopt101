@@ -1,0 +1,2210 @@
+TASK_START 0 2026-11-04T11:45:51+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 139 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 136.6 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 140 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 139.41 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 132 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 146.38 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 180 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.02 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 129 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 139.9 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 141 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 144.84 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 232 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.74 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 139 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 138.21 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 150 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.51 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 142 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 146.03 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 149 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 141.04 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 179 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 140.57 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 135 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 143.02 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 130 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 141.35 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 150 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 141.04 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 249 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 133.74 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 168 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 141.34 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 130 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 139.27 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 139 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.98 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 149 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_alphabet_soup_and_place_it_in_the_basket', 'task_id': 0, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.6 ms
+*** All episodes completed.
+- Success rate: 100.00%  (20/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_0
+TASK_DONE 0 2026-11-04T12:08:11+07:00
+TASK_START 1 2026-11-04T12:08:11+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 176 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.33 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 125 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.85 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 129 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 125.98 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 132 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 136.18 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 149 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.16 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 136 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.5 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': False, 'is_success': False}
+- Average inference time per step: 125.18 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 119 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 127.35 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 143 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 131.79 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 121 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 133.3 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 127 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 138.22 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 126 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 134.54 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 125 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 137.36 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 130 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 139.73 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 128 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 144.79 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 120 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 127.53 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 127 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 128.16 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 121 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 145.1 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 118 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 143.03 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 120 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_cream_cheese_and_place_it_in_the_basket', 'task_id': 1, 'done': True, 'is_success': True}}
+- Average inference time per step: 138.35 ms
+*** All episodes completed.
+- Success rate: 95.00%  (19/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_1
+TASK_DONE 1 2026-11-04T12:28:51+07:00
+TASK_START 2 2026-11-04T12:28:51+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 118 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 136.44 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 223 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 134.65 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 122 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 142.58 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': False, 'is_success': False}
+- Average inference time per step: 129.95 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 118 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.78 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 117 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 137.41 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': False, 'is_success': False}
+- Average inference time per step: 127.21 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 127 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.04 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 330 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.02 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 122 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 140.94 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 126 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 138.55 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 136 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 137.55 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 118 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.42 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 121 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 141.77 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 109 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 136.62 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 134 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 138.9 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 118 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 133.74 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 125 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 139.28 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 122 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 143.83 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 126 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_salad_dressing_and_place_it_in_the_basket', 'task_id': 2, 'done': True, 'is_success': True}}
+- Average inference time per step: 142.86 ms
+*** All episodes completed.
+- Success rate: 90.00%  (18/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_2
+TASK_DONE 2 2026-11-04T12:52:19+07:00
+TASK_START 3 2026-11-04T12:52:19+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 165 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.44 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 128 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.36 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 130 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 125.73 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 126 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.22 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 131 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 136.51 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 126 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.9 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 126 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 128.98 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': False, 'is_success': False}
+- Average inference time per step: 123.7 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': False, 'is_success': False}
+- Average inference time per step: 123.25 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 125 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 128.98 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 117 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 128.72 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': False, 'is_success': False}
+- Average inference time per step: 122.93 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 121 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 133.24 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 129 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.75 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': False, 'is_success': False}
+- Average inference time per step: 125.51 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 118 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.32 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 108 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 137.48 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 132 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': True, 'is_success': True}}
+- Average inference time per step: 133.1 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': False, 'is_success': False}
+- Average inference time per step: 123.04 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_bbq_sauce_and_place_it_in_the_basket', 'task_id': 3, 'done': False, 'is_success': False}
+- Average inference time per step: 123.31 ms
+*** All episodes completed.
+- Success rate: 70.00%  (14/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_3
+TASK_DONE 3 2026-11-04T13:19:05+07:00
+TASK_START 4 2026-11-04T13:19:05+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 152 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 134.21 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 136 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.33 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 151 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 131.46 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 137 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 127.62 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 150 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 126.15 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 141 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.33 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 139 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 125.13 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 138 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 127.95 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 160 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 124.43 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 147 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.67 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 137 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 127.55 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': False, 'is_success': False}
+- Average inference time per step: 123.48 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 139 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 126.38 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 133 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 131.94 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 139 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.97 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 149 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.81 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 137 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.81 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 139 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 126.35 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 187 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 126.68 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 137 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_ketchup_and_place_it_in_the_basket', 'task_id': 4, 'done': True, 'is_success': True}}
+- Average inference time per step: 127.94 ms
+*** All episodes completed.
+- Success rate: 95.00%  (19/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_4
+TASK_DONE 4 2026-11-04T13:39:33+07:00
+TASK_START 5 2026-11-04T13:39:33+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 179 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.24 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': False, 'is_success': False}
+- Average inference time per step: 124.78 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 188 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 143.65 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 147 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 148.47 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 168 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 141.78 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 171 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 148.78 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': False, 'is_success': False}
+- Average inference time per step: 137.11 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 209 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 142.44 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': False, 'is_success': False}
+- Average inference time per step: 130.68 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 222 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 142.29 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': False, 'is_success': False}
+- Average inference time per step: 134.41 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': False, 'is_success': False}
+- Average inference time per step: 139.02 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': False, 'is_success': False}
+- Average inference time per step: 137.87 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': False, 'is_success': False}
+- Average inference time per step: 126.44 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 179 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 143.55 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': False, 'is_success': False}
+- Average inference time per step: 141.64 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 136 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 149.7 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 119 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 146.74 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': False, 'is_success': False}
+- Average inference time per step: 142.48 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 199 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_tomato_sauce_and_place_it_in_the_basket', 'task_id': 5, 'done': True, 'is_success': True}}
+- Average inference time per step: 145.63 ms
+*** All episodes completed.
+- Success rate: 55.00%  (11/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_5
+TASK_DONE 5 2026-11-04T14:18:40+07:00
+TASK_START 6 2026-11-04T14:18:40+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 149 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 144.13 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 210 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.86 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 150 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 136.27 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 150 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 131.93 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 150 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 138.54 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 143 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 139.2 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 151 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 137.97 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 148 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 145.53 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 151 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 152.48 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 147 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.05 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 147 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.58 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 137 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.73 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 159 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.79 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 150 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.96 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 151 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 139.5 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 186 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.49 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 177 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.39 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 163 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 136.38 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 152 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 138.28 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 146 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_butter_and_place_it_in_the_basket', 'task_id': 6, 'done': True, 'is_success': True}}
+- Average inference time per step: 136.09 ms
+*** All episodes completed.
+- Success rate: 100.00%  (20/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_6
+TASK_DONE 6 2026-11-04T14:40:35+07:00
+TASK_START 7 2026-11-04T14:40:35+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 143 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 133.7 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 137 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 134.52 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 129 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 133.8 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 141 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 138.93 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 120 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 137.89 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 127 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 140.19 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 134 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 143.79 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 139 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 141.56 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 133 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 146.41 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 135 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 144.93 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 124 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 144.75 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 117 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 141.15 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 141 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 150.05 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 138 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 140.68 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 129 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 139.78 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 169 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 138.57 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': False, 'is_success': False}
+- Average inference time per step: 131.69 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 127 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 134.45 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 147 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.79 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 138 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_milk_and_place_it_in_the_basket', 'task_id': 7, 'done': True, 'is_success': True}}
+- Average inference time per step: 140.88 ms
+*** All episodes completed.
+- Success rate: 95.00%  (19/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_7
+TASK_DONE 7 2026-11-04T15:02:39+07:00
+TASK_START 8 2026-11-04T15:02:39+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 144 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.22 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': False, 'is_success': False}
+- Average inference time per step: 124.84 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 159 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.41 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 148 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 133.57 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 150 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 134.21 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 141 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 144.31 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 160 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 127.62 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': False, 'is_success': False}
+- Average inference time per step: 123.94 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 137 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.1 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 142 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 134.49 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 145 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.51 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 149 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 133.72 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': False, 'is_success': False}
+- Average inference time per step: 124.09 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 152 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.25 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 152 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.27 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 148 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.68 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 155 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 136.84 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 153 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 132.08 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 160 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 127.29 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 156 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_chocolate_pudding_and_place_it_in_the_basket', 'task_id': 8, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.41 ms
+*** All episodes completed.
+- Success rate: 85.00%  (17/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_8
+TASK_DONE 8 2026-11-04T15:27:15+07:00
+TASK_START 9 2026-11-04T15:27:15+07:00
+[robosuite WARNING] No private macro file found! (__init__.py:7)
+[robosuite WARNING] It is recommended to use a private macro file (__init__.py:8)
+[robosuite WARNING] To setup, run: python /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/robosuite/scripts/setup_macros.py (__init__.py:9)
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+vla-cpp-direct[arch=smolvla]: connected to tcp://localhost:5555
+vla-cpp-direct: loading tokenizer HuggingFaceTB/SmolVLM2-500M-Instruct
+[info] using task orders [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+[Warning]: datasets path /mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/LIBERO/libero/libero/../datasets does not exist!
+*** Episode 1/20
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `reset()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+/mnt/e/vla.cpp-a-khanh/vla-runtime/eval/sim/libero/libero_uv/.venv/lib/python3.10/site-packages/gymnasium/utils/passive_env_checker.py:174: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+- Episode finished after 199 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 128.2 ms
+*** Episode 2/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 124 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 134.28 ms
+*** Episode 3/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 130 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 125.16 ms
+*** Episode 4/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': False, 'is_success': False}
+- Average inference time per step: 123.81 ms
+*** Episode 5/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 137 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 128.58 ms
+*** Episode 6/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 133 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 131.79 ms
+*** Episode 7/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 120 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 125.67 ms
+*** Episode 8/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 134 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.72 ms
+*** Episode 9/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': False, 'is_success': False}
+- Average inference time per step: 123.21 ms
+*** Episode 10/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 133 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 137.6 ms
+*** Episode 11/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 174 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 137.34 ms
+*** Episode 12/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 138 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 130.43 ms
+*** Episode 13/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': False, 'is_success': False}
+- Average inference time per step: 124.66 ms
+*** Episode 14/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 118 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.02 ms
+*** Episode 15/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 211 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 129.99 ms
+*** Episode 16/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 122 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 134.5 ms
+*** Episode 17/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 131 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 135.76 ms
+*** Episode 18/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 500 steps.
+- Final reward: 0.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': False, 'is_success': False}
+- Average inference time per step: 123.64 ms
+*** Episode 19/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 127 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 131.16 ms
+*** Episode 20/20
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+- Episode finished after 127 steps.
+- Final reward: 1.00
+- Episode Information:
+{'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True, 'final_info': {'task': 'pick_up_the_orange_juice_and_place_it_in_the_basket', 'task_id': 9, 'done': True, 'is_success': True}}
+- Average inference time per step: 131.86 ms
+*** All episodes completed.
+- Success rate: 80.00%  (16/20)
+- Skipped (terminated mid-step): 0/20
+- Saved videos to: /mnt/e/vla.cpp-a-khanh/robot-results/gpu-f16-libero-object-200/smolvla/libero_object/task_9
+TASK_DONE 9 2026-11-04T15:52:46+07:00

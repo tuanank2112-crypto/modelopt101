@@ -1,0 +1,41 @@
+ggml_cuda_init: found 1 CUDA devices (Total VRAM: 4095 MiB):
+  Device 0: Quadro T2000, compute capability 7.5, VMM: yes, VRAM: 4095 MiB
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup reset
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+ggml_backend_cuda_graph_compute: CUDA graph warmup complete
+vla: arch = smolvla
+vla: config = /mnt/e/vla.cpp-a-khanh/vla-runtime/models/smolvla/smolvla-libero.gguf (gguf KV)
+vla: backend = CUDA (device 0)
+vla(smolvla): fused CUDA ops on (VLA_FUSED_OPS=0 to disable)
+vla: [vram] after backend init     used=804.9 MiB  free=3290.8 MiB
+vla: tower weights resident as bf16
+vla: cfg  hidden=960 expert_h=480 expert_inter=1280 n_layers=32 n_img=64 n_lang=48 n_suffix=50 max_state=32 max_action=32
+vla: cfg  real_state_dim=8 real_action_dim=7
+vla: 416 LM GEMM weights widened to f32 for --mm-prec f32
+vla: [vram] weight_buf = 1763.1 MiB
+vla: [vram] after weights alloc    used=2568.9 MiB  free=1526.8 MiB  (+1764.0 MiB)
+smolvla-libero.gguf: min 541.6 ms  mean 544.3 ms  p50 544.1 ms  p90 545.9 ms  vision 300.1 ms  (2 views, 512x512, 16 tokens, 20 reps)
+	Command being timed: "/mnt/e/vla.cpp-a-khanh/vla-runtime/build/vla-bench --ckpt /mnt/e/vla.cpp-a-khanh/vla-runtime/models/smolvla/smolvla-libero.gguf --images 2 --size 512 --tokens 16 --warmup 3 --reps 20"
+	User time (seconds): 13.53
+	System time (seconds): 1.65
+	Percent of CPU this job got: 77%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 461232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 485
+	Minor (reclaiming a frame) page faults: 115304
+	Voluntary context switches: 19292
+	Involuntary context switches: 95
+	Swaps: 0
+	File system inputs: 2028378
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

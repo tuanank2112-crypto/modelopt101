@@ -1,0 +1,92 @@
+[
+  {
+    "task": 0,
+    "name": "Alphabet soup",
+    "success": 20,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 3102,
+    "client_ms_per_env_step": 138.98
+  },
+  {
+    "task": 1,
+    "name": "Cream cheese",
+    "success": 19,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 2972,
+    "client_ms_per_env_step": 134.32
+  },
+  {
+    "task": 2,
+    "name": "Salad dressing",
+    "success": 18,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 3512,
+    "client_ms_per_env_step": 136.73
+  },
+  {
+    "task": 3,
+    "name": "BBQ sauce",
+    "success": 14,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 4782,
+    "client_ms_per_env_step": 128.67
+  },
+  {
+    "task": 4,
+    "name": "Ketchup",
+    "success": 19,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 3248,
+    "client_ms_per_env_step": 128.46
+  },
+  {
+    "task": 5,
+    "name": "Tomato sauce",
+    "success": 11,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 6417,
+    "client_ms_per_env_step": 140.14
+  },
+  {
+    "task": 6,
+    "name": "Butter",
+    "success": 20,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 3117,
+    "client_ms_per_env_step": 136.71
+  },
+  {
+    "task": 7,
+    "name": "Milk",
+    "success": 19,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 3068,
+    "client_ms_per_env_step": 139.67
+  },
+  {
+    "task": 8,
+    "name": "Chocolate pudding",
+    "success": 17,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 4051,
+    "client_ms_per_env_step": 131.29
+  },
+  {
+    "task": 9,
+    "name": "Orange juice",
+    "success": 16,
+    "episodes": 20,
+    "aborted": 0,
+    "steps": 4258,
+    "client_ms_per_env_step": 129.87
+  }
+]

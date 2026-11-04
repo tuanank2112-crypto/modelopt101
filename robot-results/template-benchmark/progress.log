@@ -1,0 +1,15 @@
+CUDA-defaults-screen 0 536.8
+CUDA-flash-screen 0 533.7
+CUDA-mm-default-screen 0 583.9
+CUDA-flash-mm-screen 0 578.0
+CUDA-bf16-screen 0 582.9
+CUDA-bf16-flash-screen 0 579.1
+CUDA-f16-screen 0 1197.2
+CUDA-f16-flash-screen 0 1232.8
+CUDA-defaults-full-1 0 544.5
+CUDA-defaults-full-2 0 544.1
+CUDA-defaults-full-3 0 544.3
+CPU-defaults-screen 0 4487.6
+CPU-flash-screen 0 3409.9
+CPU-mm-default-screen 0 3636.8
+CPU-flash-mm-screen 0 5266.4

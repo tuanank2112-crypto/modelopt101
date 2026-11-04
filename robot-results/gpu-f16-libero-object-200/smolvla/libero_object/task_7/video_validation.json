@@ -1,0 +1,302 @@
+[
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "144"
+      }
+    ],
+    "format": {
+      "duration": "4.800000"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "138"
+      }
+    ],
+    "format": {
+      "duration": "4.600000"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "130"
+      }
+    ],
+    "format": {
+      "duration": "4.333333"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "142"
+      }
+    ],
+    "format": {
+      "duration": "4.733333"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "121"
+      }
+    ],
+    "format": {
+      "duration": "4.033333"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "128"
+      }
+    ],
+    "format": {
+      "duration": "4.266667"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "135"
+      }
+    ],
+    "format": {
+      "duration": "4.500000"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "140"
+      }
+    ],
+    "format": {
+      "duration": "4.666667"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "134"
+      }
+    ],
+    "format": {
+      "duration": "4.466667"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "136"
+      }
+    ],
+    "format": {
+      "duration": "4.533333"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "125"
+      }
+    ],
+    "format": {
+      "duration": "4.166667"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "118"
+      }
+    ],
+    "format": {
+      "duration": "3.933333"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "142"
+      }
+    ],
+    "format": {
+      "duration": "4.733333"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "139"
+      }
+    ],
+    "format": {
+      "duration": "4.633333"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "130"
+      }
+    ],
+    "format": {
+      "duration": "4.333333"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "170"
+      }
+    ],
+    "format": {
+      "duration": "5.666667"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "501"
+      }
+    ],
+    "format": {
+      "duration": "16.700000"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "128"
+      }
+    ],
+    "format": {
+      "duration": "4.266667"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "148"
+      }
+    ],
+    "format": {
+      "duration": "4.933333"
+    }
+  },
+  {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 512,
+        "height": 256,
+        "nb_frames": "139"
+      }
+    ],
+    "format": {
+      "duration": "4.633333"
+    }
+  }
+]

@@ -1,0 +1,33 @@
+vla: arch = smolvla
+vla: config = /mnt/e/vla.cpp-a-khanh/vla-runtime/models/smolvla/smolvla-libero.gguf (gguf KV)
+vla: backend = CPU (12 threads)
+vla: [vram] after backend init     used=0.0 MiB  free=15810.6 MiB
+vla: tower weights resident as bf16
+vla: cfg  hidden=960 expert_h=480 expert_inter=1280 n_layers=32 n_img=64 n_lang=48 n_suffix=50 max_state=32 max_action=32
+vla: cfg  real_state_dim=8 real_action_dim=7
+vla: [vram] weight_buf = 985.0 MiB
+vla: [vram] after weights alloc    used=0.0 MiB  free=15810.6 MiB  (+0.0 MiB)
+smolvla-libero.gguf: min 2842.2 ms  mean 3409.9 ms  p50 3410.7 ms  p90 3819.3 ms  vision 1880.2 ms  (2 views, 512x512, 16 tokens, 5 reps)
+	Command being timed: "/mnt/e/vla.cpp-a-khanh/vla-runtime/build-cpu/vla-bench --ckpt /mnt/e/vla.cpp-a-khanh/vla-runtime/models/smolvla/smolvla-libero.gguf --images 2 --size 512 --tokens 16 --warmup 2 --reps 5 --flash-attn"
+	User time (seconds): 272.52
+	System time (seconds): 2.12
+	Percent of CPU this job got: 964%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1076104
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 105
+	Minor (reclaiming a frame) page faults: 313060
+	Voluntary context switches: 29480
+	Involuntary context switches: 643
+	Swaps: 0
+	File system inputs: 2017377
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -53,3 +53,10 @@ Deploying optimized models on a laptop:
 - [apps/vla.cpp/](apps/vla.cpp/) - run **SmolVLA** with [`vla.cpp`](https://fai-modelopt-tech.github.io/vla-cpp.github.io/), a C++ VLA inference runtime built on `llama.cpp`.
 
 ![video](assets/smolvla-libero-object.gif)
+## Kết quả thực nghiệm trên máy
+
+- [Báo cáo Quantization](BAO_CAO_TOI_UU_HOA_QUANTIZATION.md)
+- [Báo cáo Distillation, Pruning, NAS và Kernel](BAO_CAO_CAC_BAI_TOAN_MODELOPT_CON_LAI.md)
+- [Kiểm thử robot GPU: 173/200 thành công](robot-results/BAO_CAO_KIEM_THU_ROBOT.md)
+- [Danh sách 200 video](robot-results/DANH_SACH_VIDEO_GPU.md)
+- [Benchmark Quadro T2000 theo template](vla-runtime/docs/benchmark/quadro-t2000-local.md)
