@@ -52,7 +52,7 @@ Insights:
 - I asked for knowledge I can "see": pictures and everyday examples, not just formulas.
 - The first lessons were reading only. I asked to change the format so I take part: I guess, I run the command myself, then I get the explanation.
 
-**A2. Hands-on with the ACT model, running `vla-bench` myself in WSL (05/11)**
+**A2. Checking each concept by measuring it on my machine (ACT model, 05/11)**
 
 | My guess / answer | Actual result | What I learned |
 |---|---|---|
@@ -67,20 +67,7 @@ Insights:
 | Computed a filter by hand: 4×(−1) + 6×1 = 2, positive | Correct | This filter detects a change from dark to bright, which is an object edge |
 | **Wrong:** thought many zeros automatically make it faster | The GPU still multiplies the zeros unless the kernel knows how to skip them | Pruning only helps if the runtime uses the zeros, or if whole rows are removed (structured pruning) |
 
-**A3. Learning from my own experiment results (06/11 and 07/11)**
-- On 06/11 I went through the report section by section, reading it as "someone with no background".
-- When something was unclear, I kept asking until I understood:
-  - "What does 'runs but is not usable' mean?"
-  - "What does `CUDA_ARCHITECTURES` actually affect?"
-  - "How exactly does the compression work?"
-- On 07/11 I said clearly that the goal was to understand all the terms and methods, not to add more to the report.
-- Result: I understand how Q8_0 compression works.
-  - Weights are split into blocks of 32 numbers.
-  - Each block stores 1 scale factor (the largest value divided by 127) plus 32 8-bit integers.
-  - Each block takes 34 bytes instead of 64.
-- I also understand why GR00T keeps the vision part uncompressed and only compresses the other 3 blocks.
-
-**A4. ModelOpt101 exercises on MNIST (03/11)**
+**A3. ModelOpt101 exercises on MNIST (03/11)**
 - Completed 5 exercises: quantization, distillation, pruning, NAS, kernels.
 - Wrote 2 summary reports.
 - Limitation: MNIST only, not yet applied to a robot policy.
@@ -132,6 +119,8 @@ Results of the separate GR00T experiments:
 | N1.7 optimized | 0.30 s | 2.9 GB | 30/30 |
 
 30 episodes are enough to say the fast version is not worse. They are not enough to say which version is better.
+
+Compression used (Q8_0): weights are split into blocks of 32 numbers. Each block stores 1 scale factor (the largest value divided by 127) plus 32 8-bit integers, so it takes 34 bytes instead of 64.
 
 ## Plan
 
