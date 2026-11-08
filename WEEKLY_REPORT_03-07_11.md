@@ -133,15 +133,8 @@ Compression used (Q8_0): weights are split into blocks of 32 numbers. Each block
    - Measure the latency of the whole real control loop (camera → model → robot), not just the model time. For example, GR00T returns 16 steps per prediction. If the robot runs at 20 steps per second, each prediction must finish in under 0.8 s or the robot has to stop and wait.
    - Record the success rate and video, and compare them with the simulation results.
    - Learn the same way as this week: guess the result first, run it for real, then compare.
-2. Rebase the `t2000-cuda-benchmark` branch onto the new `main`. There are conflicts in `docs/benchmark/README.md` and `src/models/gr00tn1d5.cpp`. Then re-check on the T2000 and send the link to the repo owner for review.
-3. Evaluate the optimized GR00T on the other 3 LIBERO suites (Spatial, Goal, Long), with more episodes.
-4. Re-run N1.7 with the official tokenizer (requires accepting the NVIDIA license).
-5. Fix the 2 ModelOpt reports. They still say CUDA cannot run on the T2000, which is no longer true.
-6. Keep learning the same way (guess, run it myself, compare):
-   - Finish the pruning exercise.
-   - Then learn distillation, CUDA Graphs, flash attention, tensor cores and dp4a.
-   - Goal: explain every technique used on the T2000 without outside help.
-7. Apply one technique I learned (for example quantization) to SmolVLA myself, and measure it on LIBERO with the two-level quality gate.
-8. Proposals to discuss:
+2. Evaluate the optimized GR00T on the other 3 LIBERO suites (Spatial, Goal, Long), with more episodes.
+3. Fix the 2 ModelOpt reports. They still say CUDA cannot run on the T2000, which is no longer true.
+4. Proposals to discuss:
    - Run 2–3 simulators in parallel to shorten evaluation time.
    - Let the model predict the next action chunk while the robot is still executing the current one, so the robot does not have to wait. This can be tried once the model runs on the real robot.
