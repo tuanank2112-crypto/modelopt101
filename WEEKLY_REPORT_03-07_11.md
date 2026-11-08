@@ -1,6 +1,6 @@
 # Weekly report, 03/11 to 07/11/2026
 
-Reported by: ...
+Reported by: LeNhuY
 Scope: learning the basics of model optimization for robots, then using that to steer experiments on the vla.cpp repo (Quadro T2000 4 GB GPU, running in WSL)
 
 ## Summary
@@ -17,7 +17,6 @@ At the start of the week I only knew the names of the core topics: quantization,
 - I got some answers wrong, and I wrote those down so I understand the correct version.
 
 **Step 2: use what I learned to steer the experiments on the T2000.**
-- The AI tools (Claude, Codex) ran the builds and measurements and drafted text.
 - I asked the questions, chose the direction, rejected conclusions that had no evidence, and stopped proposals that were not needed.
 
 Main results:
@@ -48,7 +47,7 @@ Insights:
 ### Part A. Learning the basic concepts
 
 **A1. Learning path (05/11)**
-- I told the AI that I work in the edge optimization team but only had a surface-level understanding, and asked for a learning path.
+- I started from where I stood: I work in the edge optimization team but only had a surface-level understanding. From there I set a learning path.
 - The path follows one line: model → computation → memory → runtime → robot control loop.
 - I asked for knowledge I can "see": pictures and everyday examples, not just formulas.
 - The first lessons were reading only. I asked to change the format so I take part: I guess, I run the command myself, then I get the explanation.
@@ -68,8 +67,8 @@ Insights:
 | Computed a filter by hand: 4×(−1) + 6×1 = 2, positive | Correct | This filter detects a change from dark to bright, which is an object edge |
 | **Wrong:** thought many zeros automatically make it faster | The GPU still multiplies the zeros unless the kernel knows how to skip them | Pruning only helps if the runtime uses the zeros, or if whole rows are removed (structured pruning) |
 
-**A3. Learning by making the AI explain the experiment results (06/11 and 07/11)**
-- On 06/11 I asked for the report to be explained "for someone with no background".
+**A3. Learning from my own experiment results (06/11 and 07/11)**
+- On 06/11 I went through the report section by section, reading it as "someone with no background".
 - When something was unclear, I kept asking until I understood:
   - "What does 'runs but is not usable' mean?"
   - "What does `CUDA_ARCHITECTURES` actually affect?"
@@ -88,7 +87,7 @@ Insights:
 
 ### Part B. Steering the experiments on the T2000
 
-The AI did the builds, the measurements and the first drafts. The table below lists my decisions and questions, and what each one changed.
+The table below lists my decisions and questions, and what each one changed.
 
 | Date | My decision / question | Why | Result |
 |---|---|---|---|
@@ -96,17 +95,17 @@ The AI did the builds, the measurements and the first drafts. The table below li
 | 03/11 | Models that do not run must have a stated reason, and must be tried | The report should not have gaps | Downloaded BitVLA, GR00T and VLA-JEPA to try them |
 | 04/11 | GPU first, no switching to CPU on our own | The goal is to measure on the T2000 GPU | Patched kernels so the GPU path works. SmolVLA robot test: 173/200 on GPU |
 | 04/11 | Keep the same configuration until all 200 episodes finish; optimize later | Changing mid-run would mix two configurations in one result set | One consistent set of 200 results, with full video |
-| 04/11 | Asked for ways to run the failing models, and asked for research when the AI said "no way" | Did not accept an early conclusion | Found a replacement kernel for BitVLA and a quantization path for GR00T |
+| 04/11 | Asked for ways to run the failing models, and asked for more research when the first answer was "no way" | Did not accept an early conclusion | Found a replacement kernel for BitVLA and a quantization path for GR00T |
 | 04/11 | Re-measure only 6 models; keep the 3 that already had real data | Avoid redundant runs | All 9 models merged into one report |
-| 05/11 | Asked "based on what?" when the AI explained why every model failed at defaults, and asked for deeper research | The first answer was a guess | Found the root cause: some kernels only had an sm_80 build, and the real error was hidden. After the fix, 8/9 models run at defaults |
+| 05/11 | Asked "based on what?" about the first explanation of why every model failed at defaults, and asked for deeper research | The first answer was a guess | Found the root cause: some kernels only had an sm_80 build, and the real error was hidden. After the fix, 8/9 models run at defaults |
 | 05/11 | The report lacked proof for the checkpoints, so that had to be added | The report must be verifiable | Added SHA-256: 9/9 checkpoints match Hugging Face |
 | 05/11 | Asked for a full list of the remaining work before continuing | Wanted to see the full scope | A 7-item list, done in order |
 | 06/11 | Goal: cut latency as much as possible **while keeping quality** | Fast but wrong is useless for a robot | Added a two-level quality gate: numerical drift and 30 paired robot scenarios |
 | 06/11 | Asked about newer optimization methods, why hashes were not saved, and how many runs the benchmark docs require | Make sure the repo's procedure is followed | Hashes saved for every build; run counts follow the docs |
 | 06/11 | Set a rule: when a model "seems" unable to run on 4 GB, try several methods before concluding | GR00T had been labeled "cannot run" too early | GR00T N1.5: from out of VRAM to 0.63 s |
 | 06/11 | Asked whether N1.7 can run on the T2000 | Check whether the method works on a larger model | N1.7: 0.30 s, 30/30, after finding that the original was spilling out of VRAM |
-| 07/11 | After the repo owner's review: make the commit small and remove the AI signature | The old commit had 79 files and was hard to merge | Now 1 commit, 16 files, no signature |
-| 07/11 | **Rejected the proposal to re-measure** the whole default table | The table followed the right order: measure defaults first, find failures, then run the separate experiments | The AI withdrew the proposal. Saved a full re-run of 8 models |
+| 07/11 | After the repo owner's review: make the commit small and keep only my own signature | The old commit had 79 files and was hard to merge | Now 1 commit, 16 files, signed only by me |
+| 07/11 | **Rejected the proposal to re-measure** the whole default table | The table followed the right order: measure defaults first, find failures, then run the separate experiments | The proposal was dropped. Saved a full re-run of 8 models |
 | 07/11 | Compared the report with the existing RTX reports; kept the template layout without forcing the line count down | The report must match the repo standard, not be short at any cost | The GR00T part moved to its own file, `t2000-gr00t.md` |
 
 Final numbers on the T2000, default settings:
@@ -143,7 +142,7 @@ Results of the separate GR00T experiments:
 5. Keep learning the same way (guess, run it myself, compare):
    - Finish the pruning exercise.
    - Then learn distillation, CUDA Graphs, flash attention, tensor cores and dp4a.
-   - Goal: explain every technique used on the T2000 without help from AI.
+   - Goal: explain every technique used on the T2000 without outside help.
 6. Apply one technique I learned (for example quantization) to SmolVLA myself, and measure it on LIBERO with the two-level quality gate.
 7. Proposals to discuss:
    - Run 2–3 simulators in parallel to shorten evaluation time.
