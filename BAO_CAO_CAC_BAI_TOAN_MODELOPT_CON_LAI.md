@@ -556,11 +556,11 @@ xychart-beta
 
 Đã chạy SmolVLA với LIBERO libero_object, task 0: **pick_up_the_alphabet_soup_and_place_it_in_the_basket**. Đây là lượt baseline SmolVLA, chưa áp dụng các phép tối ưu MNIST trong báo cáo lên mô hình robot.
 
-- Kết quả: **thành công 1/1 episode**, 138 bước, không bị hủy giữa chừng; seed 42, 
-_action_steps=1.
-- Runtime: vla.cpp bản CPU trong WSL Ubuntu; checkpoint rfai/smolvla-libero-gguf. Bản CUDA mới gặp kernel yêu cầu SM80, không tương thích GPU Quadro T2000 (SM75), nên lượt này dùng CPU.
+- Kết quả: **thành công 1/1 episode**, 138 bước, không bị hủy giữa chừng; seed 42, n_action_steps=1.
+- Runtime: vla.cpp bản CPU trong WSL Ubuntu; checkpoint rfai/smolvla-libero-gguf. Ở lượt này, bản CUDA mới gặp kernel yêu cầu SM80, không tương thích GPU Quadro T2000 (SM75), nên tạm dùng CPU.
+  - **Cập nhật (đã khắc phục):** sau lượt này đã có [bản sửa tương thích Turing](robot-results/turing-local.patch), bỏ các candidate GEMM chỉ dành cho Ampere và dùng fallback có sẵn. Bản CUDA đã chạy được trên T2000, xem mục "Kết quả kiểm thử robot GPU chính thức" bên dưới (200 episode, 173 thành công).
 - Thời gian suy luận trung bình mỗi bước: **3405,67 ms**.
-- Video: H.264, 512 × 256, 30 fps, 139 khung hình, 4,63 giây. Đây là thời lượng phát theo khung hình mô phỏng; thời gian chạy thực tế dài hơn do suy luận CPU.
+- Video: H.264, 512 × 256, 30 fps, 139 khung hình, 4,63 giây. Đây là thời lượng phát theo khung hình mô phỏng; thời gian chạy thực tế dài hơn do lượt này suy luận trên CPU.
 - Một episode thành công chưa đủ để suy ra tỷ lệ thành công trên toàn bộ benchmark hoặc hiệu quả tối ưu hóa.
 
 [Xem video robot](robot-results/baseline/smolvla/libero_object/task_0/episode_000000.mp4) · [Nhật ký tổng hợp](robot-results/baseline/smolvla/libero_object/task_0/summary.txt) · [Kết quả từng episode](robot-results/baseline/smolvla/libero_object/task_0/episodes.csv)
@@ -568,7 +568,7 @@ _action_steps=1.
 
 ### Cập nhật kiểm thử GPU và CPU — 04/11/2026
 
-LIBERO-Object task 0, 20 episode, replay 10: GPU CUDA FP16 thành công **20/20**, CPU BF16 **17/20**. Đã xác thực 20 video GPU. Đây là baseline SmolVLA; các phép tối ưu MNIST chưa được áp dụng lên policy robot. Toàn bộ benchmark 10 task đang thực hiện. [Xem báo cáo và video chi tiết](robot-results/BAO_CAO_KIEM_THU_ROBOT.md).
+LIBERO-Object task 0, 20 episode, replay 10: GPU CUDA FP16 thành công **20/20**, CPU BF16 **17/20**. Đã xác thực 20 video GPU. Đây là baseline SmolVLA; các phép tối ưu MNIST chưa được áp dụng lên policy robot. Toàn bộ benchmark 10 task đã chạy xong sau đó, xem mục bên dưới. [Xem báo cáo và video chi tiết](robot-results/BAO_CAO_KIEM_THU_ROBOT.md).
 
 
 ## Kết quả kiểm thử robot GPU chính thức — 04/11/2026
